@@ -36,7 +36,7 @@ with open(pybank_csv_path,newline="") as csvfile:
             biggest_decr[0] = row['Date']
 
 
-
+#calculate the revenue average
 rev_avg = sum(revenue_change_list)/len(revenue_change_list)
 
 
