@@ -11,7 +11,7 @@ candidates_percent = {}
 winner_count = 0
 winner = ""
 
-
+#calculate the total number of candidates listed in the csv file
 with open(pypoll_csv_path, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ",")
     next(csvreader, None)
