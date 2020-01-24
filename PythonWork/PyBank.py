@@ -47,7 +47,7 @@ print(biggest_incr)
 print(biggest_decr)
 
 
-
+#write and output the following files
 with open(file_output, 'w') as file:
     file.write("Financial Analysis\n")
     file.write("---------------------\n")
