@@ -52,7 +52,7 @@ print ("Winner: " + winner)
 print ("-------------------------------------")
 
 
-
+#in file_output the following text will be printed
 with open(file_output, 'w') as file:
     file.write("Election Results \n")
     file.write("------------------------------------- \n")
